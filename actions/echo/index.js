@@ -28,7 +28,3 @@ module.exports = async ({ message = 'No message provided' }) => ({
         }
     ]
 })
-
-function useUndefined () {
-  return someUndefinedVariable
-}
