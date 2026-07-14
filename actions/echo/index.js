@@ -20,8 +20,6 @@ governing permissions and limitations under the License.
  * @param {string} message - The message to echo back.
  */
 
-const { formatEcho } = require('../../lib/echo-formatter')
-
 module.exports = async ({ message = 'No message provided' }) => ({
     content: [
         {
