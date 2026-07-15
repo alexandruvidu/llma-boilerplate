@@ -28,5 +28,3 @@ module.exports = async ({ message = 'No message provided' }) => ({
         }
     ]
 })
-
-const missingUtil = require('../../lib/echo-formatter-v2')
