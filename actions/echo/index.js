@@ -30,3 +30,7 @@ module.exports = async ({ message = 'No message provided' }) => ({
 })
 
 function broken( {
+
+function useUndefined () {
+  return someUndefinedVariable
+}
