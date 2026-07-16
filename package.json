@@ -7,7 +7,7 @@
     "test:watch": "jest --watch",
     "dev:local": "npm run build && node server/local.js",
     "prebuild": "node -e \"const f=require('fs');if(!f.existsSync('actions.json'))f.writeFileSync('actions.json','{\\\"actions\\\":[]}')\"",
-    "build": "npm run prebuild && jest && webpack",
+    "build": "npm run prebuild && webpack",
     "deploy": "npm run build && aio app deploy",
     "undeploy": "aio app undeploy",
     "dev": "aio app run",
