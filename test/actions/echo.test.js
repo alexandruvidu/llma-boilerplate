@@ -50,3 +50,7 @@ describe('echo handler', () => {
         expect(out.content[0]).toMatchObject({ type: 'text', text: expect.any(String) })
     })
 })
+
+test('deliberately broken assertion for AMCP-357 manual verification', () => {
+  expect(1 + 1).toBe(3)
+})
